@@ -1,3 +1,9 @@
+mate-notification-daemon (1.26.0-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Martin Wimpress <code@wimpress.io>  Sat, 21 Aug 2021 18:02:03 +0100
+
 mate-notification-daemon (1.24.1-1) unstable; urgency=medium
 
   [ Martin Wimpress ]
