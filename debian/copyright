@@ -46,23 +46,33 @@ License: GPL-3+
 
 Files: mate-notification-daemon.pot
        po/*.po
-       po/Rules-quot
        po/boldquot.sed
-       po/en@boldquot.header
-       po/en@quot.header
        po/gnome-copyrights.txt
-       po/insert-header.sin
        po/quot.sed
 Copyright: 2005-2011, THE PACKAGE's COPYRIGHT HOLDER
 License: GPL-2+
 Comment:
  Using license information from COPYING file.
 
-Files: .github/issue_template.md
+Files: src/capplet/mate-notification-applet.c
+       src/common/constants.h
+Copyright: 2020, Robert Buj <robert.buj@gmail.com>
+           2020-2021, MATE Developers
+License: GPL-2+ 
+
+Files: src/daemon/wayland.c
+       src/daemon/wayland.h
+Copyright: 2020, William Wold <wm@wmww.sh>
+           2020-2021, MATE Developers
+License: GPL-2+
+
+Files: .build.yml
+       .github/issue_template.md
        .github/FUNDING.yml
        .travis.yml
        .tx/config
        data/Makefile.am
+       data/mate-notification-properties.desktop.in
        data/org.*
        data/icons/*
        src/themes/coco/Makefile.am
@@ -73,10 +83,11 @@ Files: .github/issue_template.md
        src/daemon/Makefile.am
        src/Makefile.am
        src/capplet/Makefile.am
+       src/capplet/mate-notification-applet-menu.xml
        src/capplet/mate-notification-properties.1
-       src/capplet/mate-notification-properties.desktop.in
        src/capplet/mate-notification-properties.ui
        src/capplet/org.mate.notifications.properties.gresource.xml
+       src/capplet/org.mate.panel.applet.notifications.gresource.xml
        src/daemon/mnd-daemon.c
        src/daemon/notificationdaemon.xml
        acinclude.m4
@@ -97,6 +108,11 @@ Comment:
  Specified files lack copyright/license information in the
  (non-present) file header. Using license information from
  COPYING file.
+
+Files: git.mk
+Copyright: 2009, Red Hat, Inc.
+  2010,2011,2012,2013, Behdad Esfahbod
+License: public-domain
 
 Files: debian/*
 Copyright: 2011-2014, Stefano Karapetsas <stefano@karapetsas.com>
@@ -135,4 +151,9 @@ License: GPL-3+
  along with this program. If not, see <http://www.gnu.org/licenses/>
  .
  On Debian systems, the complete text of the GNU General
- Public License version 3 can be found in "/usr/share/common-licenses/GPL-3".
+ iPublic License version 3 can be found in "/usr/share/common-licenses/GPL-3".
+
+License: public-domain
+ Copying and distribution of this file, with or without modification,
+ is permitted in any medium without royalty provided the copyright
+ notice and this notice are preserved.
