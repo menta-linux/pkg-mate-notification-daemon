@@ -11,6 +11,7 @@ Copyright: 2005, John (J5) Palmieri <johnp@redhat.com>
            2006, Christian Hammond <chipx86@chipx86.com>
            2010, Red Hat, Inc
            2011, Perberos <perberos@gmail.com>
+           2012-2021, MATE Developers
 License: GPL-2+
 
 Files: src/daemon/stack.c
@@ -20,28 +21,33 @@ Files: src/daemon/stack.c
 Copyright: 2006-2007 Christian Hammond <chipx86@chipx86.com>
            2009-2010 Red Hat, Inc
            2011, Perberos <perberos@gmail.com>
+           2012-2021, MATE Developers
 License: GPL-2+
 
 Files: src/daemon/sound.c
        src/daemon/sound.h
 Copyright: 2007, Jim Ramsay <i.am@jimramsay.com>
            2011, Perberos <perberos@gmail.com>
+           2012-2021, MATE Developers
 License: GPL-2+
 
 Files: src/capplet/mate-notification-properties.c
 Copyright: 2007, Jonh Wendell <wendell@bani.com.br>
            2011, Perberos <perberos@gmail.com>
+           2012-2021, MATE Developers
 License: GPL-2+
 
 Files: src/themes/coco/coco-theme.c
 Copyright: 2008, Martin Sourada
            2010, Eduardo Grajeda
            2012, Stefano Karapetsas <stefano@karapetsas.com>
+           2012-2021, MATE Developers
 License: GPL-3+
 
 Files: src/themes/nodoka/nodoka-theme.c
 Copyright: 2008, Martin Sourada
            2012, Stefano Karapetsas <stefano@karapetsas.com>
+           2012-2021, MATE Developers
 License: GPL-3+
 
 Files: mate-notification-daemon.pot
@@ -116,7 +122,7 @@ License: public-domain
 
 Files: debian/*
 Copyright: 2011-2014, Stefano Karapetsas <stefano@karapetsas.com>
-           2014, Mike Gabriel <sunweaver@debian.org>
+           2014-2021, Mike Gabriel <sunweaver@debian.org>
 License: GPL-2+ or GPL-3+
 
 License: GPL-2+
