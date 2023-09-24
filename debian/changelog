@@ -13,6 +13,8 @@ mate-notification-daemon (1.26.1-1) unstable; urgency=medium
     + Update copyright attribution for debian/.
   * debian/rules:
     + Set libexecdir to /usr/libexec/mate-notification-daemon.
+    + Remove *.gmo files after build. Should be handled by upstream,
+      though.
   * debian/mate-notification-daemon.install:
     + Also install files now placed into /usr/libexec/.
 
