@@ -1,8 +1,22 @@
-mate-notification-daemon (1.26.1-1) UNRELEASED; urgency=medium
+mate-notification-daemon (1.26.1-1) unstable; urgency=medium
 
-  * New upstream release.
+  * New upstream release. (Closes: #1052565).
+    - daemon: fix memory leak.
+    - mnd-daemon: fix memory leak.
+  * debian/patches:
+    + Drop 1000_add-AssumedAppArmorLabel.patch. Applied upstream.
+  * debian/control:
+    + Bump Standards-Version: to 4.6.2. No changes needed.
+    + Exclude libgtk-layer-shell-dev from B-Ds when building on/for GNU/Hurd.
+      (Closes: #1020904).
+  * debian/copyright:
+    + Update copyright attribution for debian/.
+  * debian/rules:
+    + Set libexecdir to /usr/libexec/mate-notification-daemon.
+  * debian/mate-notification-daemon.install:
+    + Also install files now placed into /usr/libexec/.
 
- -- Mike Gabriel <sunweaver@debian.org>  Sun, 24 Sep 2023 22:23:14 +0200
+ -- Mike Gabriel <sunweaver@debian.org>  Sun, 24 Sep 2023 22:23:43 +0200
 
 mate-notification-daemon (1.26.0-1) unstable; urgency=medium
 
