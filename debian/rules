@@ -27,5 +27,9 @@ override_dh_auto_configure:
 		--libexecdir=/usr/libexec/mate-notification-daemon \
 		--disable-static
 
+override_dh_auto_clean:
+	-dh_auto_clean
+	rm -Rfv po/*.gmo
+
 get-orig-source:
 	uscan --noconf --force-download --rename --download-current-version --destdir=..
