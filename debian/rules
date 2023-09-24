@@ -24,7 +24,7 @@ override_dh_auto_configure:
 	NOCONFIGURE=1 ./autogen.sh
 	dh_auto_configure $(DHFLAGS) -- \
 		--disable-silent-rules \
-		--libexecdir=/usr/lib/mate-notification-daemon \
+		--libexecdir=/usr/libexec/mate-notification-daemon \
 		--disable-static
 
 get-orig-source:
