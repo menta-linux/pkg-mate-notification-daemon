@@ -1,3 +1,16 @@
+mate-notification-daemon (1.29.0-1menta1) unstable; urgency=medium
+
+  * Menta Linux rebuild: new upstream release 1.29.0 (git tag; no
+    release tarball published).
+  * debian/rules: Build with --enable-wayland and --enable-in-process
+    (do-not-disturb applet loaded in-process by mate-panel).
+  * debian/watch: Track GitHub tags.
+  * debian/mate-notification-daemon.install: Install new
+    etc/xdg/autostart/mate-notification-daemon.desktop.
+  * debian/rules: Also drop libtool .la of the in-process applet module.
+
+ -- Menta Linux <packages@menta-linux.invalid>  Sat, 14 Nov 2026 17:13:31 -0700
+
 mate-notification-daemon (1.26.1-1) unstable; urgency=medium
 
   * New upstream release. (Closes: #1052565).
