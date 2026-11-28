@@ -1,3 +1,4 @@
 schema_version = 1
 upstream_url = "https://github.com/mate-desktop/mate-notification-daemon"
-release_policy = "releases"
+release_policy = "snapshot"
+snapshot_base = "1.29.0"
